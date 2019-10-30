@@ -1,0 +1,87 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Vollkorn&display=swap');
+
+body {
+  background-color: #F7F9FC,
+  color: #1E2019;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+h1 {
+  font-family: 'Vollkorn', serif;
+  color: #0C1E4C;
+  font-size: 32px;
+  font-weight: 900;
+  text-shadow: 3px 3px 4px #777;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 20px 40px;
+}
+
+a {
+  color: #1E2019;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #D17A22;
+}
+
+#logo {
+  width: 300px;
+  border-radius: 3px;
+}
+
+.container {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 3px solid lightgrey;
+  margin: 20px 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.btn-blue {
+  background-color: #0C1E4C;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+
+.sm-icons {
+  font-size: 30px;
+  background-color: #0C1E4C;
+  color: white;
+  padding: 0px 3px;
+  border-radius: 4px;
+}
+#footer {
+    margin: 10px 30px;
+    padding: 0px;
+}
